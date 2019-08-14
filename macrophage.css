@@ -1,0 +1,166 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Agency FB', Calibri;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*container設定*/
+.container {
+    width:1170px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+/*以下是最上面的header*/
+header {
+    height: 40px;
+    width: 100%;
+    background-color:rgba(0,0,0,0.7);
+    position:fixed;
+    z-index: 10;
+}
+
+.header-left a {
+    color:white;
+    font-size: 30px;
+    padding: 1px 0;
+    float:left;
+    display:block;
+    font-weight: bold;
+}
+
+.header-right {
+    float:right;
+}
+
+.header-right a{
+    color:white;
+    display:inline-block;
+    padding: 8px 20px;
+}
+
+.header-right a:hover {
+    background-color:rgba(255,255,255,0.5)
+}
+
+/*以下是中間的部分，共分為header,see photos,find photos三個wrapper*/
+.main {
+  background-color: #4c5964;
+}
+
+.header-wrapper {
+  height: 1000px;
+  width: 100%;
+  color:white;
+  background-image: url(headerpage1.jpg);
+  background-size:cover;
+}
+
+.header-wrapper h1 {
+  padding-top:380px;
+  font-size: 135px;
+  text-align: right;
+}
+
+.header-wrapper p {
+  padding-top: 5px;
+  font-size: 40px;
+  text-align: right;
+  opacity: 0.8;
+}
+
+/*以下see-photos-wrapper的部分*/
+.see-wrapper {
+  height: 380px;
+  margin-top: 60px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.pic-heading {
+  color:white;
+  border-bottom: 3px solid #fff;
+  padding: 15px 0 3px 10px;
+}
+
+.picture {
+  padding: 40px 0;
+  margin-bottom: 35px;
+}
+
+.pic {
+  float: left;
+  width:33%;
+}
+
+/*以下是find-wrapper的部分，上面和find-wrapper有共用*/
+.find-wrapper {
+  height: 380px;
+  margin-top: 40px;
+  background-color: rgba(255,255,255,0.3);
+}
+
+.find-icon {
+  position: relative;
+}
+
+.find-icon a {
+  position: absolute;
+  top: 43%;
+  left: 80px;
+  color: #6c4e44;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.find-icon a:hover {
+  color: black;
+}
+
+/*以下開始是footer的部分*/
+footer {
+  color: white;
+  background-color: black;
+  margin-top: 60px;
+  height: 150px;
+}
+
+.list {
+  padding-left: 60px;
+}
+
+.AFQ {
+  display: inline-block;
+  width:33%;
+  padding-top: 30px;
+}
+
+.li {
+  color: white;
+  display: block;
+}
+
+.lo {
+  display: inline-block;
+  width: 33%;
+}
+
+.find-me {
+  display: inline-block;
+}
+
+.contact-icon {
+  display:inline-block;
+}
